@@ -15,6 +15,8 @@
 		0630DAAF1F0A070900AE9D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0630DAAD1F0A070900AE9D1E /* LaunchScreen.storyboard */; };
 		0630DABA1F0A070A00AE9D1E /* ViewPushWayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0630DAB91F0A070A00AE9D1E /* ViewPushWayTests.m */; };
 		0630DAC51F0A070A00AE9D1E /* ViewPushWayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0630DAC41F0A070A00AE9D1E /* ViewPushWayUITests.m */; };
+		0630DAD41F0A072200AE9D1E /* ViewPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0630DAD31F0A072200AE9D1E /* ViewPushViewController.m */; };
+		0630DAD71F0A073500AE9D1E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0630DAD61F0A073500AE9D1E /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0630DAC01F0A070A00AE9D1E /* ViewPushWayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewPushWayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0630DAC41F0A070A00AE9D1E /* ViewPushWayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewPushWayUITests.m; sourceTree = "<group>"; };
 		0630DAC61F0A070A00AE9D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0630DAD21F0A072200AE9D1E /* ViewPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPushViewController.h; sourceTree = "<group>"; };
+		0630DAD31F0A072200AE9D1E /* ViewPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPushViewController.m; sourceTree = "<group>"; };
+		0630DAD51F0A073500AE9D1E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		0630DAD61F0A073500AE9D1E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				0630DAA31F0A070900AE9D1E /* AppDelegate.m */,
 				0630DAA51F0A070900AE9D1E /* ViewController.h */,
 				0630DAA61F0A070900AE9D1E /* ViewController.m */,
+				0630DAD51F0A073500AE9D1E /* CustomView.h */,
+				0630DAD61F0A073500AE9D1E /* CustomView.m */,
+				0630DAD21F0A072200AE9D1E /* ViewPushViewController.h */,
+				0630DAD31F0A072200AE9D1E /* ViewPushViewController.m */,
 				0630DAA81F0A070900AE9D1E /* Main.storyboard */,
 				0630DAAB1F0A070900AE9D1E /* Assets.xcassets */,
 				0630DAAD1F0A070900AE9D1E /* LaunchScreen.storyboard */,
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0630DAD71F0A073500AE9D1E /* CustomView.m in Sources */,
 				0630DAA71F0A070900AE9D1E /* ViewController.m in Sources */,
+				0630DAD41F0A072200AE9D1E /* ViewPushViewController.m in Sources */,
 				0630DAA41F0A070900AE9D1E /* AppDelegate.m in Sources */,
 				0630DAA11F0A070900AE9D1E /* main.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CustomView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.title = @"Push前";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    CustomView *view = [[CustomView alloc]init];
+    [self.view addSubview:view];
+    view.frame = self.view.frame;
 }
 
 
